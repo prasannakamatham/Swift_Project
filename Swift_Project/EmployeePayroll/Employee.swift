@@ -1,0 +1,30 @@
+//
+//  Employee.swift
+//  Swift_Project
+//
+//  Created by Nikhil Kothamasu on 2018-07-28.
+//  Copyright © 2018 MacStudent. All rights reserved.
+//
+
+import Foundation
+
+class Employee{
+    var empName: String!
+    var empAge: Int!
+    
+    init(empName: String, empAge: Int)
+    {
+        self.empName = empName
+        self.empAge = empAge
+    }
+    
+    func calcBirthYear()
+    {
+        
+    }
+    
+    func calcEarnings()
+    {
+        
+    }
+}

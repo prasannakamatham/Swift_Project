@@ -1,0 +1,21 @@
+//
+//  Intern.swift
+//  Swift_Project
+//
+//  Created by Nikhil Kothamasu on 2018-07-28.
+//  Copyright © 2018 MacStudent. All rights reserved.
+//
+
+import Foundation
+
+class  Intern : Employee
+{
+    var SchoolName: String!
+    
+    init(empName: String, empAge: Int, SchoolName: String)
+    {
+        super.init(empName: empName, empAge: empAge)
+        self.SchoolName = SchoolName
+    }
+    
+}

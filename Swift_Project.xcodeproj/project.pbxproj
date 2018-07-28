@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1704F8AA210CFC26001F01D4 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8A9210CFC26001F01D4 /* PartTime.swift */; };
+		1704F8AC210CFC3B001F01D4 /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8AB210CFC3B001F01D4 /* Intern.swift */; };
+		1704F8AE210CFC64001F01D4 /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8AD210CFC64001F01D4 /* FullTime.swift */; };
+		1704F8B0210CFCD5001F01D4 /* CommissionBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8AF210CFCD5001F01D4 /* CommissionBasedPartTime.swift */; };
+		1704F8B2210CFD08001F01D4 /* FixedBasedPartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8B1210CFD08001F01D4 /* FixedBasedPartTime.swift */; };
+		1704F8B4210CFD17001F01D4 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8B3210CFD17001F01D4 /* Vehicle.swift */; };
+		1704F8B6210CFD36001F01D4 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8B5210CFD36001F01D4 /* Car.swift */; };
+		1704F8B8210CFD46001F01D4 /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8B7210CFD46001F01D4 /* Motorcycle.swift */; };
+		1704F8BA210CFD5A001F01D4 /* IPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8B9210CFD5A001F01D4 /* IPrintable.swift */; };
+		1704F8BC210CFD80001F01D4 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704F8BB210CFD80001F01D4 /* Employee.swift */; };
 		9BBADE11210A486D0077A24C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBADE10210A486D0077A24C /* main.swift */; };
-		9BBADE18210A492A0077A24C /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBADE17210A492A0077A24C /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +33,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1704F8A9210CFC26001F01D4 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		1704F8AB210CFC3B001F01D4 /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
+		1704F8AD210CFC64001F01D4 /* FullTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTime.swift; sourceTree = "<group>"; };
+		1704F8AF210CFCD5001F01D4 /* CommissionBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionBasedPartTime.swift; sourceTree = "<group>"; };
+		1704F8B1210CFD08001F01D4 /* FixedBasedPartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBasedPartTime.swift; sourceTree = "<group>"; };
+		1704F8B3210CFD17001F01D4 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		1704F8B5210CFD36001F01D4 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		1704F8B7210CFD46001F01D4 /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
+		1704F8B9210CFD5A001F01D4 /* IPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPrintable.swift; sourceTree = "<group>"; };
+		1704F8BB210CFD80001F01D4 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		9BBADE0D210A486D0077A24C /* Swift_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBADE10210A486D0077A24C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		9BBADE17210A492A0077A24C /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1704F8A8210CFB9D001F01D4 /* EmployeePayroll */ = {
+			isa = PBXGroup;
+			children = (
+				1704F8BB210CFD80001F01D4 /* Employee.swift */,
+				1704F8A9210CFC26001F01D4 /* PartTime.swift */,
+				1704F8AB210CFC3B001F01D4 /* Intern.swift */,
+				1704F8AD210CFC64001F01D4 /* FullTime.swift */,
+				1704F8AF210CFCD5001F01D4 /* CommissionBasedPartTime.swift */,
+				1704F8B1210CFD08001F01D4 /* FixedBasedPartTime.swift */,
+				1704F8B3210CFD17001F01D4 /* Vehicle.swift */,
+				1704F8B5210CFD36001F01D4 /* Car.swift */,
+				1704F8B7210CFD46001F01D4 /* Motorcycle.swift */,
+				1704F8B9210CFD5A001F01D4 /* IPrintable.swift */,
+			);
+			path = EmployeePayroll;
+			sourceTree = "<group>";
+		};
 		9BBADE04210A486D0077A24C = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +94,8 @@
 		9BBADE0F210A486D0077A24C /* Swift_Project */ = {
 			isa = PBXGroup;
 			children = (
+				1704F8A8210CFB9D001F01D4 /* EmployeePayroll */,
 				9BBADE10210A486D0077A24C /* main.swift */,
-				9BBADE17210A492A0077A24C /* Employee.swift */,
 			);
 			path = Swift_Project;
 			sourceTree = "<group>";
@@ -97,6 +132,7 @@
 				TargetAttributes = {
 					9BBADE0C210A486D0077A24C = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -122,8 +158,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1704F8B4210CFD17001F01D4 /* Vehicle.swift in Sources */,
+				1704F8AA210CFC26001F01D4 /* PartTime.swift in Sources */,
+				1704F8AE210CFC64001F01D4 /* FullTime.swift in Sources */,
+				1704F8BC210CFD80001F01D4 /* Employee.swift in Sources */,
+				1704F8B0210CFCD5001F01D4 /* CommissionBasedPartTime.swift in Sources */,
 				9BBADE11210A486D0077A24C /* main.swift in Sources */,
-				9BBADE18210A492A0077A24C /* Employee.swift in Sources */,
+				1704F8B6210CFD36001F01D4 /* Car.swift in Sources */,
+				1704F8BA210CFD5A001F01D4 /* IPrintable.swift in Sources */,
+				1704F8B8210CFD46001F01D4 /* Motorcycle.swift in Sources */,
+				1704F8B2210CFD08001F01D4 /* FixedBasedPartTime.swift in Sources */,
+				1704F8AC210CFC3B001F01D4 /* Intern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +293,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -257,7 +302,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
