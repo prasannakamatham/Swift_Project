@@ -24,7 +24,7 @@ class Car: Vehicle
     
     override func Display()
     {
-        print("Vehicle Company is: \(Company!) \n Vehicle color is: \(Color!) \n Vehicle is made in: \(Year!)")
+        print("employee Vehicle: \n make: \(Make!) \n plate: \(Plate!) \n Company: \(Company!) \n Vehicle color is: \(Color!) \n Vehicle is made in: \(Year!)")
     }
 
 }

@@ -29,6 +29,9 @@ class FullTime: Employee
     
     override func Display()
     {
-        print("\t\t Fulltime Employee details \n Name: \(empName!) \n Age: \(empAge!) \n Salary: \(Salary!) \n Bonus: \(Bonus!) \n Total Salary: \(calcEarnings()) \n Vehicle: \([Vehicle])")
+        print("\t\t Fulltime Employee details \n Name: \(empName!) \n Age: \(empAge!) \n Salary: \(Salary!) \n Bonus: \(Bonus!) \n Total Salary: \(calcEarnings())")
+        Vehicle.forEach({$0.Display()})
+    
     }
+    
 }

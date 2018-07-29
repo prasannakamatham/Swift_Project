@@ -24,6 +24,6 @@ class Motorcycle: Vehicle
     
     override func Display()
     {
-        print("Motorcycle manufacturer is: \(Manufacturer!) \n Motorcycle max speed: \(MaxSpeed!) \n Motorcycle no of Gears : \(Gear!)")
+        print("employee Vehicle: \n make: \(Make!) \n plate: \(Plate!) manufacturer: \(Manufacturer!) \n Motorcycle max speed: \(MaxSpeed!) \n Motorcycle no of Gears : \(Gear!)")
     }
 }

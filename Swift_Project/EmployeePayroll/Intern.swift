@@ -21,8 +21,8 @@ class  Intern : Employee
     override func Display()
     {
         print("\t\t Employee is Intern")
-        print("Employee Name: \(empName!))")
+        print("Employee Name: \(empName!)")
         print("Schoolname: \(SchoolName!)")
-        print("Employee vehicle: \([Vehicle])")
+        Vehicle.forEach({$0.Display()})
     }
 }

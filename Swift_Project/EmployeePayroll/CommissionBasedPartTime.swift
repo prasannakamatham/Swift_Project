@@ -27,6 +27,6 @@ class CommissionBasedPartTime: PartTime
     
     override func Display()
     {
-        print("\t\tCommission based Employee  \n Name: \(empName!) \n Rate: \(Rate!) \n Hours worked: \(HoursWorked!) \n Total salary: \(calcEarnings()) \n Vehicle: \([Vehicle])")
-    }
+        print("\t\tCommission based Employee  \n Name: \(empName!) \n Rate: \(Rate!) \n Hours worked: \(HoursWorked!) \n Total salary: \(calcEarnings())")
+        Vehicle.forEach ({$0.Display()})    }
 }
