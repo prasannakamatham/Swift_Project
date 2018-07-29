@@ -13,13 +13,16 @@ class PartTime: Employee
     var Rate: Float!
     var HoursWorked: Float!
     
-    init(empName: String, empAge: Int, Rate: Float, HoursWorked: Float)
+    init(empName: String, empAge: Int, Rate: Float, HoursWorked: Float, Vehicle: [Vehicle])
     {
-        super.init(empName: empName, empAge: empAge)
+        super.init(empName: empName, empAge: empAge, Vehicle: [])
         self.Rate = Rate
         self.HoursWorked = HoursWorked
-        
     }
     
+    override func Display()
+    {
+        
+    }
     
 }

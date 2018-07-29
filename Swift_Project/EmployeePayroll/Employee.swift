@@ -8,23 +8,33 @@
 
 import Foundation
 
-class Employee{
+class Employee: IPrintable
+{
     var empName: String!
     var empAge: Int!
+    var Vehicle: [Vehicle]!
     
-    init(empName: String, empAge: Int)
+    init(empName: String, empAge: Int, Vehicle: [Vehicle])
     {
         self.empName = empName
         self.empAge = empAge
+        self.Vehicle = Vehicle
     }
     
-    func calcBirthYear()
+    func calcBirthYear() -> Int
     {
+       return 2017 - empAge
+    }
+    
+    func calcEarnings() -> Float
+    {
+        return 1000
+    }
+    
+    func Display()
+    {
+        print("Employee Name: \(empName!) \n year of Birth \(calcBirthYear()) \n employee vehicle details: \([Vehicle])")
         
     }
     
-    func calcEarnings()
-    {
-        
-    }
 }

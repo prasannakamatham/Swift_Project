@@ -21,6 +21,6 @@ class Vehicle
     
     func Display()
     {
-        print("Vehicle make is: \(self.Make!) \n Vehicle Reg No is: \(String(describing: self.Plate))")
+        print("Vehicle make is: \(Make!) \n Vehicle Reg No is: \(Plate!))")
     }
 }

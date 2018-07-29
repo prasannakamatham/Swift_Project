@@ -12,10 +12,17 @@ class  Intern : Employee
 {
     var SchoolName: String!
     
-    init(empName: String, empAge: Int, SchoolName: String)
+    init(empName: String, empAge: Int, SchoolName: String, Vehicle: [Vehicle])
     {
-        super.init(empName: empName, empAge: empAge)
+        super.init(empName: empName, empAge: empAge, Vehicle: [])
         self.SchoolName = SchoolName
     }
     
+    override func Display()
+    {
+        print("\t\t Employee is Intern")
+        print("Employee Name: \(empName!))")
+        print("Schoolname: \(SchoolName!)")
+        print("Employee vehicle: \([Vehicle])")
+    }
 }
