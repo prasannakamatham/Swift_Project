@@ -19,6 +19,7 @@ class FullTime: Employee
         super.init(empName: empName, empAge: empAge, Vehicle: [])
         self.Salary = Salary
         self.Bonus = Bonus
+        self.Vehicle = Vehicle
     }
     
     override func calcEarnings() -> Float
@@ -29,7 +30,7 @@ class FullTime: Employee
     
     override func Display()
     {
-        print("\t\t Fulltime Employee details \n Name: \(empName!) \n Age: \(empAge!) \n Salary: \(Salary!) \n Bonus: \(Bonus!) \n Total Salary: \(calcEarnings())")
+        print("\t\t Fulltime Employee details \n Employee Name: \(empName!) \n Age: \(empAge!) \n Salary: \(Salary!) \n Bonus: \(Bonus!) \n Total Salary: \(calcEarnings())")
         Vehicle.forEach({$0.Display()})
     
     }

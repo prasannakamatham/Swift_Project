@@ -17,6 +17,7 @@ class FixedBasedPartTime: PartTime
     {
         super.init(empName: empName, empAge: empAge, Rate: Rate, HoursWorked: HoursWorked, Vehicle: [])
         self.FixedAmount = FixedAmount
+        self.Vehicle = Vehicle
     }
     
     override func calcEarnings() -> Float
@@ -27,7 +28,9 @@ class FixedBasedPartTime: PartTime
     
     override func Display()
     {
-        print("\t\tFixed based Employee  \n Name: \(empName!) \n Rate: \(Rate!) \n Hours worked: \(HoursWorked!) \n Total salary: \(calcEarnings())")
-        Vehicle.forEach ({$0.Display()})    }
+        print("\t\tFixed based Employee  \n Employee Name: \(empName!) \n Rate: \(Rate!) \n Hours worked: \(HoursWorked!) \n Total salary: \(calcEarnings())")
+        Vehicle.forEach({$0.Display()})
+        
+    }
     
 }

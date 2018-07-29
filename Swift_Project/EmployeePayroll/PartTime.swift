@@ -18,6 +18,7 @@ class PartTime: Employee
         super.init(empName: empName, empAge: empAge, Vehicle: [])
         self.Rate = Rate
         self.HoursWorked = HoursWorked
+        self.Vehicle = Vehicle
     }
     
     override func Display()

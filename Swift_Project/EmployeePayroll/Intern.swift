@@ -16,6 +16,7 @@ class  Intern : Employee
     {
         super.init(empName: empName, empAge: empAge, Vehicle: [])
         self.SchoolName = SchoolName
+        self.Vehicle = Vehicle
     }
     
     override func Display()
